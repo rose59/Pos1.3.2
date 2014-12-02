@@ -8,5 +8,6 @@ public class ItemTest {
         Item apple = new Item("Apple", 100);
 
         assertEquals(apple.getItemName(), "Apple");
+        fail();
     }
 }
