@@ -20,7 +20,7 @@ public class ParseTest {
                 return line;
             }
         };
-        path = "c://itemlist.txt";
+        path = ".//data//itemlist.txt";
     }
 
     @Test
