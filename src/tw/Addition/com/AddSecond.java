@@ -17,6 +17,6 @@ public class AddSecond extends AddItem<Double> {
     @Override
     public Double addItem(List<Pair> listRead,ItemSort itemSort) {
          new ChangeSecond(listRead,itemSort);
-        return itemSort.getItemSecond();
+        return itemSort.getSecond();
     }
 }

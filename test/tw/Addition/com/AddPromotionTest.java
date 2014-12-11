@@ -32,8 +32,8 @@ public class AddPromotionTest {
     public void should_get_PromotionList_when_given_pairList() throws Exception {
         AddPromotion addPromotion = new AddPromotion();
         addPromotion.AddItem(list,sortList);
-      //  System.out.println(addPromotion.listItem.get(0).getItemPromotion());
-        assertThat(sortList.get(0).getItemPromotion(), is(0.5));
+      //  System.out.println(addPromotion.listItem.get(0).getPromotion());
+        assertThat(sortList.get(0).getPromotion(), is(0.5));
 
     }
 }

@@ -17,6 +17,6 @@ public class AddAmount extends AddItem<Integer>  {
     @Override
     public Integer addItem(List<Pair> listRead, ItemSort itemSort) {
         new ChangeAmount(listRead, itemSort);
-        return itemSort.getItemAmount();
+        return itemSort.getAmount();
     }
 }

@@ -24,7 +24,7 @@ public class ChangePromotionTest {
     public void should_change_itemSort_Promotion_when_given_itemSort_Promotion() throws Exception {
         ItemSort itemSort = new ItemSort("item01", 75);
         new ChangePromotion(list, itemSort);
-        assertThat(itemSort.getItemPromotion(), is(0.5));
+        assertThat(itemSort.getPromotion(), is(0.5));
 
     }
 }

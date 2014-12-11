@@ -44,8 +44,8 @@ public class AdditionTest {
 //    public void should_get_price_when_given_listRead() throws Exception {
         //itemSortList = addition.InitializationItem(list);
         //   addition.addItemPropertyPromotion(itemSortList,list);
-    //    MatcherAssert.assertThat(itemSortList.get(0).getItemPrice(), is(50.0));
-        //  assertThat(itemSortList.get(0).itemPromotion,is(0.5));
+    //    MatcherAssert.assertThat(itemSortList.get(0).getPrice(), is(50.0));
+        //  assertThat(itemSortList.get(0).promotion,is(0.5));
         //verify(listRead, (VerificationMode) addition.InitializationItem(additionMock.tw.Parse.com.Parse("1")));
 
   //  }
@@ -65,8 +65,8 @@ public class AdditionTest {
       //  List<ItemSort> itemSortList = additionMock.InitializationItem(new ArrayList());
       //  additionMock.addItemPropertyPromotion(itemSortList, list);
 //        System.out.println(list.get(0).GetValue());
-//        System.out.println(itemSortList.get(0).getItemPromotion());
-//        MatcherAssert.assertThat(itemSortList.get(0).getItemPromotion(), is(0.5));
+//        System.out.println(itemSortList.get(0).getPromotion());
+//        MatcherAssert.assertThat(itemSortList.get(0).getPromotion(), is(0.5));
 //
 //    }
 
@@ -74,7 +74,7 @@ public class AdditionTest {
 //    public void should_get_Amount_when_given_listRead() throws Exception {
 //
 //        additionMock.addItemPropertyAmount(itemSortList,list);
-//        assertThat(itemSortList.get(1).itemAmount,is(50));
+//        assertThat(itemSortList.get(1).amount,is(50));
 //
 //    }
 
@@ -98,7 +98,7 @@ public class AdditionTest {
     public void should_get_item_Initialization_when_given_list_pair() throws Exception {
         Addition addition = new Addition();
         addition.InitializationItem(pairList);
-        assertThat(addition.listItem.get(0).getItemName(),is("item01"));
+        assertThat(addition.listItem.get(0).getName(),is("item01"));
     }
 
     @Test
@@ -106,7 +106,7 @@ public class AdditionTest {
 
         additionSpy.listItem= additionSpy.InitializationItem(pairList);
         additionSpy.addItemPropertyPromotion(pairList);
-        assertThat(additionSpy.listItem.get(0).getItemPromotion(), is(0.5));
+        assertThat(additionSpy.listItem.get(0).getPromotion(), is(0.5));
 
     }
 
@@ -114,7 +114,7 @@ public class AdditionTest {
     public void should_get_allItem_Amount_when_Add_given_listRead() throws Exception {
         additionSpy.listItem=additionSpy.InitializationItem(pairList);
         additionSpy.addItemPropertyAmount(pairList);
-        assertThat(additionSpy.listItem.get(1).getItemAmount(),is(30));
+        assertThat(additionSpy.listItem.get(1).getAmount(),is(30));
 
     }
 
@@ -122,7 +122,7 @@ public class AdditionTest {
     public void should_get_allItem_FulCut_when_Add_given_listRead() throws Exception {
         additionSpy.listItem=additionSpy.InitializationItem(pairList);
         additionSpy.addItemPropertyFullCut(pairList);
-        assertThat(additionSpy.listItem.get(2).getItemFullCut(),is(5));
+        assertThat(additionSpy.listItem.get(2).getFullCut(),is(5));
 
     }
 
@@ -130,6 +130,6 @@ public class AdditionTest {
     public void should_get_allItem_Second_when_Add_given_listRead() throws Exception {
         additionSpy.listItem=additionSpy.InitializationItem(pairList);
         additionSpy.addItemPropertySecond(pairList);
-        assertThat(additionSpy.listItem.get(2).getItemSecond(),is(0.5));
+        assertThat(additionSpy.listItem.get(2).getSecond(),is(0.5));
     }
 }

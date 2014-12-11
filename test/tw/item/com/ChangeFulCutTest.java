@@ -24,7 +24,7 @@ public class ChangeFulCutTest {
     public void should_set_item_FulCut_when_given_FulCutProperty() throws Exception {
         ItemSort itemSort = new ItemSort("item01", 1);
         new ChangeFulCut(list, itemSort);
-        assertThat(itemSort.getItemFullCut(), is(5));
+        assertThat(itemSort.getFullCut(), is(5));
 
 
     }

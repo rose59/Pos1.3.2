@@ -22,7 +22,7 @@ public class Pos {
         this.allSum = calculatedAllSum();
         // System.out.println();
         for (ItemSort aListItem : listItem) {
-            System.out.println(aListItem.getItemName() + "  " + aListItem.itemAmount + "  " + aListItem.getItemPrice() + "   " + aListItem.itemPromotionSum);
+            System.out.println(aListItem.getName() + "  " + aListItem.amount + "  " + aListItem.getPrice() + "   " + aListItem.promotionSum);
         }
         System.out.println("总计金额" + " " + "(优惠前" + " " + "优惠后" + " " + "优惠差价）");
         System.out.println(allSumPromotion + "    " + allSum + "    " + allSumPromotion + "   " + (allSum - allSumPromotion));
@@ -31,16 +31,16 @@ public class Pos {
 
     protected double calculatedAllSumPromotion() {
         for (ItemSort aListItem : listItem) {
-            aListItem.itemPromotionSum = aListItem.getItemPromotionSum();
-            allSumPromotion = allSumPromotion + aListItem.itemPromotionSum;
+            aListItem.promotionSum = aListItem.getPromotionSum();
+            allSumPromotion = allSumPromotion + aListItem.promotionSum;
         }
         return allSumPromotion - (int) allSumPromotion / 100 * 10;
     }
 
     protected double calculatedAllSum() {
         for (ItemSort aListItem : listItem) {
-            aListItem.itemSortSum = aListItem.getItemSortSum();
-            allSum = allSum + aListItem.itemSortSum;
+            aListItem.sortSum = aListItem.getSortSum();
+            allSum = allSum + aListItem.sortSum;
         }
         return allSum;
     }

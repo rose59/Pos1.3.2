@@ -31,14 +31,14 @@ public class AddItemTest {
             @Override
             public Double addItem(List<Pair> listRead, ItemSort itemSort) {
                 for (Pair pair : listRead) {
-                    if (pair.GetName().equals(itemSort.getItemName()))
-                        itemSort.itemPromotion = pair.GetValue();
+                    if (pair.GetName().equals(itemSort.getName()))
+                        itemSort.promotion = pair.GetValue();
                 }
-                return itemSort.itemPromotion;
+                return itemSort.promotion;
             }
         };
         addItem.listItem.add(itemSort);
         addItem.AddItem(pairs, addItem.listItem);
-        assertThat(addItem.listItem.get(0).getItemPromotion(),is(50.0));
+        assertThat(addItem.listItem.get(0).getPromotion(),is(50.0));
     }
 }

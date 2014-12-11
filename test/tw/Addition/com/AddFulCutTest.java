@@ -33,7 +33,7 @@ public class AddFulCutTest {
     public void should_get_FulCut_when_given_addFulCut_ItemList() throws Exception {
         AddFulCut addFulCut = new AddFulCut();
         addFulCut.AddItem(list,sortList);
-        assertThat(sortList.get(0).getItemFullCut(),is(5));
+        assertThat(sortList.get(0).getFullCut(),is(5));
 
     }
 }

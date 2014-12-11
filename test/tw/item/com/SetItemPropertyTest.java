@@ -28,9 +28,9 @@ public class SetItemPropertyTest {
         new SetItemProperty(pairList, itemSort) {
             @Override
             public void changeItemProperty(Pair pair, ItemSort itemSort) {
-                itemSort.itemPromotion = pair.GetValue();
+                itemSort.promotion = pair.GetValue();
             }
         };
-        assertThat(itemSort.getItemPromotion(), is(50.0));
+        assertThat(itemSort.getPromotion(), is(50.0));
     }
 }

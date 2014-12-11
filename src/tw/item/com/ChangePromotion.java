@@ -12,6 +12,6 @@ public class ChangePromotion extends SetItemProperty {
 
     @Override
     public void changeItemProperty(Pair temp, ItemSort itemSort) {
-        itemSort.setItemPromotion(temp);
+        itemSort.setPromotion(temp);
     }
 }

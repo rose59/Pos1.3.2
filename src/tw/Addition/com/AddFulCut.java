@@ -17,6 +17,6 @@ public class AddFulCut extends AddItem<Integer> {
     @Override
     public Integer addItem(List<Pair> listRead, ItemSort itemSort) {
         new ChangeFulCut(listRead,itemSort);
-        return itemSort.getItemFullCut();
+        return itemSort.getFullCut();
     }
 }

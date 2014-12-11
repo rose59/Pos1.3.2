@@ -18,13 +18,13 @@ public class ItemTest {
 
     @Test
     public void should_get_itemName_when_given_itemList() throws Exception {
-        assertThat(item.getItemName(), is("item01"));
+        assertThat(item.getName(), is("item01"));
 
     }
 
     @Test
     public void should_get_itemPrice_when_given_itemList() throws Exception {
-        assertThat(item.getItemPrice(), is(50.0));
+        assertThat(item.getPrice(), is(50.0));
 
     }
 }

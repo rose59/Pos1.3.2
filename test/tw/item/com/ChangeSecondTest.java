@@ -24,7 +24,7 @@ public class ChangeSecondTest {
     public void should_change_itemSort_Second_when_given_itemSort_second() throws Exception {
         ItemSort itemSort = new ItemSort("item02", 3);
         new ChangeSecond(list, itemSort);
-        assertThat(itemSort.getItemSecond(), is(0.5));
+        assertThat(itemSort.getSecond(), is(0.5));
 
     }
 }

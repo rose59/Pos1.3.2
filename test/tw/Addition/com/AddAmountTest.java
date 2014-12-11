@@ -33,7 +33,7 @@ public class AddAmountTest {
     public void should_get_Amount_when_given_AmountList() throws Exception {
         AddAmount addAmount = new AddAmount();
         addAmount.AddItem(list,sortList);
-        assertThat(sortList.get(0).getItemAmount(),is(50));
+        assertThat(sortList.get(0).getAmount(),is(50));
 
     }
 }

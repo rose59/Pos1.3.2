@@ -17,6 +17,6 @@ public class AddPromotion extends AddItem<Double> {
     @Override
     public Double addItem(List<Pair> listRead, ItemSort itemSort) {
         new ChangePromotion(listRead,itemSort);
-        return itemSort.getItemPromotion();
+        return itemSort.getPromotion();
     }
 }

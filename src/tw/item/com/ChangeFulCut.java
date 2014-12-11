@@ -13,6 +13,6 @@ public class ChangeFulCut extends SetItemProperty {
     @Override
     public void changeItemProperty(Pair temp, ItemSort itemSort) {
         itemSort.setItemFullCut();
-       // itemSort.itemFullCut = 5;
+       // itemSort.fullCut = 5;
     }
 }

@@ -12,7 +12,7 @@ public class ChangeAmount extends SetItemProperty {
 
     @Override
     public void changeItemProperty(Pair temp, ItemSort itemSort) {
-        itemSort.setItemAmount(temp);
-       // itemSort.itemAmount += temp.GetValue();
+        itemSort.setAmount(temp);
+       // itemSort.amount += temp.GetValue();
     }
 }

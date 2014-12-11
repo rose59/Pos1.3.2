@@ -8,7 +8,7 @@ import java.util.List;
 public abstract class SetItemProperty {
     public SetItemProperty(List<Pair> pairList, ItemSort itemSort) {
         for (Pair temp : pairList) {
-            if (itemSort.getItemName().equals(temp.GetName()))
+            if (itemSort.getName().equals(temp.GetName()))
                 changeItemProperty(temp, itemSort);
 
         }

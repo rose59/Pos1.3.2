@@ -32,7 +32,7 @@ public class AddSecondTest {
     public void should_get_second_item_when_given_item_secondList() throws Exception {
         AddSecond addSecond = new AddSecond();
         addSecond.AddItem(list,sortList);
-        assertThat(sortList.get(0).getItemSecond(),is(0.5));
+        assertThat(sortList.get(0).getSecond(),is(0.5));
 
     }
 }

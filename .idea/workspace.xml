@@ -5,16 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c21caed5-a358-40cf-881d-815412b2fe77" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/All_FullCut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/Cart.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/Item_FullCut.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/discount_promotion.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/itemlist.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/second_half_price_promotion.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pos1.3.2/Main.class" afterPath="$PROJECT_DIR$/out/production/Pos1.3.2/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tw/Parse/com/ParseTest.java" afterPath="$PROJECT_DIR$/test/tw/Parse/com/ParseTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tw/Addition/com/AddAmount.java" afterPath="$PROJECT_DIR$/src/tw/Addition/com/AddAmount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tw/Addition/com/AddAmountTest.java" afterPath="$PROJECT_DIR$/test/tw/Addition/com/AddAmountTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tw/Addition/com/AddFulCut.java" afterPath="$PROJECT_DIR$/src/tw/Addition/com/AddFulCut.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tw/Addition/com/AddFulCutTest.java" afterPath="$PROJECT_DIR$/test/tw/Addition/com/AddFulCutTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tw/Addition/com/AddInitPriceTest.java" afterPath="$PROJECT_DIR$/test/tw/Addition/com/AddInitPriceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tw/Addition/com/AddItemTest.java" afterPath="$PROJECT_DIR$/test/tw/Addition/com/AddItemTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tw/Addition/com/AddPromotion.java" afterPath="$PROJECT_DIR$/src/tw/Addition/com/AddPromotion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tw/Addition/com/AddPromotionTest.java" afterPath="$PROJECT_DIR$/test/tw/Addition/com/AddPromotionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tw/Addition/com/AddSecond.java" afterPath="$PROJECT_DIR$/src/tw/Addition/com/AddSecond.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tw/Addition/com/AddSecondTest.java" afterPath="$PROJECT_DIR$/test/tw/Addition/com/AddSecondTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tw/Addition/com/AdditionTest.java" afterPath="$PROJECT_DIR$/test/tw/Addition/com/AdditionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tw/item/com/ChangeAmount.java" afterPath="$PROJECT_DIR$/src/tw/item/com/ChangeAmount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tw/item/com/ChangeAmountTest.java" afterPath="$PROJECT_DIR$/test/tw/item/com/ChangeAmountTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tw/item/com/ChangeFulCut.java" afterPath="$PROJECT_DIR$/src/tw/item/com/ChangeFulCut.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tw/item/com/ChangeFulCutTest.java" afterPath="$PROJECT_DIR$/test/tw/item/com/ChangeFulCutTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tw/item/com/ChangePromotion.java" afterPath="$PROJECT_DIR$/src/tw/item/com/ChangePromotion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tw/item/com/ChangePromotionTest.java" afterPath="$PROJECT_DIR$/test/tw/item/com/ChangePromotionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tw/item/com/ChangeSecondTest.java" afterPath="$PROJECT_DIR$/test/tw/item/com/ChangeSecondTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tw/item/com/Item.java" afterPath="$PROJECT_DIR$/src/tw/item/com/Item.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tw/item/com/ItemSort.java" afterPath="$PROJECT_DIR$/src/tw/item/com/ItemSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tw/item/com/ItemSortTest.java" afterPath="$PROJECT_DIR$/test/tw/item/com/ItemSortTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tw/item/com/ItemTest.java" afterPath="$PROJECT_DIR$/test/tw/item/com/ItemTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tw/Pos/com/Pos.java" afterPath="$PROJECT_DIR$/src/tw/Pos/com/Pos.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pos1.3.2.iml" afterPath="$PROJECT_DIR$/Pos1.3.2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tw/item/com/SetItemProperty.java" afterPath="$PROJECT_DIR$/src/tw/item/com/SetItemProperty.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tw/item/com/SetItemPropertyTest.java" afterPath="$PROJECT_DIR$/test/tw/item/com/SetItemPropertyTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Pos1.3.2.iws" />
@@ -54,6 +70,9 @@
       <FILTER>tw.item.com.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Pos1.3.2$AdditionTest_should_get_Promotion_when_given_listRead.coverage" NAME="AdditionTest.should_get_Promotion_when_given_listRead Coverage Results" MODIFIED="1418111968466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Pos1.3.2$ParseTest.coverage" NAME="ParseTest Coverage Results" MODIFIED="1418306479348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tw.Parse.com.*</FILTER>
+    </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -70,28 +89,28 @@
       <file leaf-file-name="ItemSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tw/item/com/ItemSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="1680">
-              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+            <state vertical-scroll-proportion="0.53927493" vertical-offset="0" max-vertical-offset="662">
               <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddSecond.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tw/Addition/com/AddSecond.java">
+      <file leaf-file-name="ItemTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/tw/item/com/ItemTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="735">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,14 +118,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParseTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/tw/Parse/com/ParseTest.java">
+      <file leaf-file-name="ItemSortTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/tw/item/com/ItemSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53927493" vertical-offset="0" max-vertical-offset="840">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1554">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeSecondTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/tw/item/com/ChangeSecondTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeAmountTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/tw/item/com/ChangeAmountTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeFulCutTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/tw/item/com/ChangeFulCutTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangePromotionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/tw/item/com/ChangePromotionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="735">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
-                <element signature="e#307#452#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,38 +190,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddFulCut.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tw/Addition/com/AddFulCut.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddPromotion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tw/Addition/com/AddPromotion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
-              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/tw/item/com/ItemSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="1638">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -178,7 +204,6 @@
         <option value="$PROJECT_DIR$/src/AddFulCut.java" />
         <option value="$PROJECT_DIR$/src/Addition.java" />
         <option value="$PROJECT_DIR$/test/AdditionTest.java" />
-        <option value="$PROJECT_DIR$/src/tw/item/com/Item.java" />
         <option value="$PROJECT_DIR$/src/tw/Parse/com/Extract.java" />
         <option value="$PROJECT_DIR$/src/tw/pair/Pair.java" />
         <option value="$PROJECT_DIR$/test/tw/Additon/com/AdditionTest.java" />
@@ -211,7 +236,6 @@
         <option value="$PROJECT_DIR$/test/tw/item/com/SetItemPropertyTest.java" />
         <option value="$PROJECT_DIR$/test/tw/Parse/com/ExtractTest.java" />
         <option value="$PROJECT_DIR$/src/tw/Addition/com/Addition.java" />
-        <option value="$PROJECT_DIR$/src/tw/item/com/ItemSort.java" />
         <option value="$PROJECT_DIR$/src/tw/Pos/com/Pos.java" />
         <option value="$PROJECT_DIR$/test/tw/Pos/com/PosTest.java" />
         <option value="$PROJECT_DIR$/test/tw/item/com/ItemSortTest.java" />
@@ -223,6 +247,8 @@
         <option value="$PROJECT_DIR$/data/second_half_price_promotion.txt" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/test/tw/Parse/com/ParseTest.java" />
+        <option value="$PROJECT_DIR$/src/tw/item/com/Item.java" />
+        <option value="$PROJECT_DIR$/src/tw/item/com/ItemSort.java" />
       </list>
     </option>
   </component>
@@ -352,6 +378,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pos1.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pos1.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -371,6 +419,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pos1.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pos1.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -463,7 +533,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ParseTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="PosTest.should_print_PosItem_when_given_list_itemSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -578,7 +648,9 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Cover" />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Cover" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -823,8 +895,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ParseTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ParseTest" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.tw.item.com" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.PosTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.PosTest.should_print_PosItem_when_given_list_itemSort" />
@@ -851,7 +923,7 @@
       <workItem from="1418092004929" duration="22580000" />
       <workItem from="1418177563050" duration="22948000" />
       <workItem from="1418267630432" duration="20268000" />
-      <workItem from="1418304600891" duration="1654000" />
+      <workItem from="1418304600891" duration="2463000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1417525746170</created>
@@ -865,11 +937,17 @@
       <option name="project" value="LOCAL" />
       <updated>1418289827742</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="after the first unit test, I reconstruct all the class">
+      <created>1418306271360</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1418306271360</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105062000" />
+    <option name="totallyTimeSpent" value="105871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1534" height="823" extended-state="0" />
@@ -887,6 +965,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32561505" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17571235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -902,7 +981,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -990,6 +1068,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7416918" vertical-offset="174" max-vertical-offset="836">
           <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -997,6 +1078,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="817">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="26" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1004,39 +1088,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3323263" vertical-offset="8" max-vertical-offset="722">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tw/item/com/ChangePromotionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33987916" vertical-offset="3" max-vertical-offset="665">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tw/item/com/ItemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79909366" vertical-offset="3" max-vertical-offset="665">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tw/item/com/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14350453" vertical-offset="0" max-vertical-offset="662">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tw/item/com/ChangeFulCutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66012084" vertical-offset="0" max-vertical-offset="662">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,7 +1118,7 @@
           <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
           <folding>
             <element signature="e#330#331#0" expanded="false" />
-            <element signature="e#377#378#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1074,13 +1128,6 @@
         <state vertical-scroll-proportion="0.4018127" vertical-offset="0" max-vertical-offset="662">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tw/item/com/ChangeAmountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4833837" vertical-offset="22" max-vertical-offset="684">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1095,6 +1142,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5407855" vertical-offset="250" max-vertical-offset="931">
           <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1102,6 +1152,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37311178" vertical-offset="0" max-vertical-offset="662">
           <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,6 +1160,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4592145" vertical-offset="0" max-vertical-offset="662">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,20 +1172,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/tw/item/com/ChangeSecondTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4833837" vertical-offset="3" max-vertical-offset="665">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/tw/item/com/SetItemPropertyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5981873" vertical-offset="117" max-vertical-offset="779">
           <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1248,14 +1294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/tw/item/com/ItemSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1638">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coverage.es">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15204">
@@ -1288,22 +1326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tw/Addition/com/AddInitPrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tw/item/com/ItemSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="836" max-vertical-offset="1520">
-          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1356,6 +1378,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/tw/Parse/com/ParseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tw/item/com/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tw/Addition/com/AddItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
@@ -1364,22 +1402,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/tw/Addition/com/AddInitPrice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/tw/Parse/com/ParseTest.java">
+    <entry file="file://$PROJECT_DIR$/test/tw/item/com/ItemTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53927493" vertical-offset="0" max-vertical-offset="840">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="735">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
-            <element signature="e#307#452#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tw/item/com/ItemSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/tw/item/com/ItemSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1554">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/tw/item/com/ChangeSecondTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/tw/item/com/ChangeAmountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/tw/item/com/ChangeFulCutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/tw/item/com/ChangePromotionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="735">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53927493" vertical-offset="0" max-vertical-offset="662">
+          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>

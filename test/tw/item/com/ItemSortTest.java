@@ -27,7 +27,7 @@ public class ItemSortTest {
     @Test
     public void should_get_itemSort_Property_when_given_itemSort_property() throws Exception {
 
-        assertThat(itemSort.getItemName() + itemSort.getItemPrice(), is("item01" + 50.0));
+        assertThat(itemSort.getName() + itemSort.getPrice(), is("item01" + 50.0));
 
 
     }
@@ -35,39 +35,39 @@ public class ItemSortTest {
     @Test
     public void should_get_itemSort_fulCut_when_given_itemSort_fulCut() throws Exception {
         itemSort.setItemFullCut();
-        assertThat(itemSort.getItemFullCut(), is(5));
+        assertThat(itemSort.getFullCut(), is(5));
     }
 
     @Test
     public void should_get_itemSort_second_when_given_itemSort_second() throws Exception {
         itemSort.setItemSecond();
-        assertThat(itemSort.getItemSecond(), is(0.5));
+        assertThat(itemSort.getSecond(), is(0.5));
 
     }
 
     @Test
     public void should_get_itemSort_Promotion_when_given_itemSort_Promotion() throws Exception {
-        itemSort.setItemPromotion(pairPro);
-        assertThat(itemSort.getItemPromotion(), is(0.75));
+        itemSort.setPromotion(pairPro);
+        assertThat(itemSort.getPromotion(), is(0.75));
 
     }
 
     @Test
     public void should_get_itemSort_Amount_when_given_itemSort_Amount() throws Exception {
-        itemSort.setItemAmount(pairAmo);
-        assertThat(itemSort.getItemAmount(), is(40));
+        itemSort.setAmount(pairAmo);
+        assertThat(itemSort.getAmount(), is(40));
 
     }
 
     @Test
     public void should_get_itemSort_Sum_when_given_itemSort() throws Exception {
-        assertThat(item.getItemSortSum(), is(300.0));
+        assertThat(item.getSortSum(), is(300.0));
 
     }
 
     @Test
     public void should_get_itemSort_PromotionSum_when_given_itemSort() throws Exception {
-        assertThat(item.getItemPromotionSum(), is(163.75));
+        assertThat(item.getPromotionSum(), is(163.75));
 
     }
 }

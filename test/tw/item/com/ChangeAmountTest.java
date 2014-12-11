@@ -25,7 +25,7 @@ public class ChangeAmountTest {
     public void should_change_itemSort_Amount_when_given_itemSort_Amount() throws Exception {
         ItemSort itemSort = new ItemSort("item02", 1);
         new ChangeAmount(list, itemSort);
-        assertThat(itemSort.getItemAmount(), is(60));
+        assertThat(itemSort.getAmount(), is(60));
 
     }
 }

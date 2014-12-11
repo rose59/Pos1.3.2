@@ -26,7 +26,7 @@ public class AddInitPriceTest {
     @Test
     public void should_get_PriceList_when_given_pairList() throws Exception {
         AddInitPrice addInitPrice=new AddInitPrice(list);
-        assertThat(addInitPrice.listItem.get(0).getItemPrice(),is(50.0));
+        assertThat(addInitPrice.listItem.get(0).getPrice(),is(50.0));
 
 
     }

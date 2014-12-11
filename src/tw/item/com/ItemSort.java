@@ -4,81 +4,81 @@ package tw.item.com;
  * Created by 欣 on 2014/12/2.
  */
 public class ItemSort extends Item {
-    public int itemAmount;
-    public double itemPromotionSum;
-    public double itemSortSum;
-    public double itemPromotion = 1;
-    protected double itemSecond = 1;
-    public int itemFullCut = 0;
+    public int amount;
+    public double promotionSum;
+    public double sortSum;
+    public double promotion = 1;
+    protected double second = 1;
+    public int fullCut = 0;
 
     public ItemSort(String itemName, double price) {
         super(itemName, price);
     }
     public ItemSort(String name,double price,double promotion,double second,int fulCut,int Amount){
         super(name,price);
-        this.itemAmount=Amount;
-        this.itemPromotion=promotion;
-        this.itemSecond=second;
-        this.itemFullCut=fulCut;
+        this.amount =Amount;
+        this.promotion =promotion;
+        this.second =second;
+        this.fullCut =fulCut;
 
     }
 
-    public void setItemAmount(Pair pair) {
-        this.itemAmount+=pair.GetValue();
+    public void setAmount(Pair pair) {
+        this.amount +=pair.GetValue();
 
     }
 
-    public void setItemPromotion(Pair pair) {
+    public void setPromotion(Pair pair) {
 
-        this.itemPromotion=pair.GetValue().doubleValue()/100;
+        this.promotion =pair.GetValue().doubleValue()/100;
     }
 
     public void setItemSecond() {
-        this.itemSecond=0.5;
+        this.second =0.5;
 
     }
 
     public void setItemFullCut() {
-        this.itemFullCut=5;
+        this.fullCut =5;
 
     }
 
     public double CalculatePromotion() {
-        this.itemPromotionSum=((this.itemAmount / 2) * (this.itemSecond + 1) + this.itemAmount % 2) * this.itemPromotion * this.itemPrice;
-        int anInt = (int) (this.itemPromotionSum / 100);
-        this.itemPromotionSum=this.itemPromotionSum- anInt *this.itemFullCut;
-        return itemPromotionSum;
+        this.promotionSum =((this.amount / 2) * (this.second + 1) + this.amount % 2) * this.promotion * this.price;
+        int anInt = (int) (this.promotionSum / 100);
+        this.promotionSum =this.promotionSum - anInt *this.fullCut;
+        return promotionSum;
     }
 
     public double CalculateSum() {
-        this.itemSortSum=this.itemAmount * this.getItemPrice();
-        return itemSortSum;
+        this.sortSum =this.amount * this.getPrice();
+        return sortSum;
     }
 
-    public int getItemAmount() {
-        return this.itemAmount;
+    public int getAmount() {
+        return this.amount;
     }
 
-    public double getItemSortSum() {
-        this.itemSortSum=CalculateSum();
-        return itemSortSum;
+    public double getSortSum() {
+        this.sortSum =CalculateSum();
+        return sortSum;
     }
 
-    public double getItemPromotionSum() {
-        this.itemPromotionSum=CalculatePromotion();
-        return itemPromotionSum;
+    public double getPromotionSum() {
+        this.promotionSum =CalculatePromotion();
+        return promotionSum;
     }
 
-    public double getItemSecond() {
-        return itemSecond;
+    public double getSecond() {
+        return second;
     }
 
-    public double getItemPromotion() {
-        return this.itemPromotion;
+    public double getPromotion() {
+        return this.promotion;
     }
 
-    public int getItemFullCut() {
-        return itemFullCut;
+    public int getFullCut() {
+        return fullCut;
     }
 
 }
