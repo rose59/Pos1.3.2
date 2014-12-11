@@ -19,5 +19,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="org.powermock:powermock-module-test-mockito-junit4-agent:1.5.4" level="application" />
   </component>
 </module>
